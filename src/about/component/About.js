@@ -12,20 +12,8 @@ export default function About() {
   return (
       <>
           <Row>
-              <Col span={isMobile?0:3} xs={{ order: 1 }} sm={{ order: 1 }} md={{ order: 1 }} lg={{ order: 1 }} >
-               
-            <Anchor style={{marginTop:40}} >
-    <Link href="#ABOUT" title="ABOUT" />
-    <Link href="#Contact" title="Contact Details" />
-    <Link href="#Education" title="Education"/>
-    <Link href="#Competencies" title="Competencies" />
-                      <Link href="#Interests" title="Interests" />
-                      <Link href="#Certificate" title="Certificate" />
-
-                      </Anchor>
             
-   </Col>
-      <Col span={isMobile?24:9} xs={{ order: 1 }} sm={{ order: 1 }} md={{ order: 1 }} lg={{ order: 1 }} offset={1}>
+      <Col span={isMobile?24:9} xs={{ order: 1 }} sm={{ order: 1 }} md={{ order: 1 }} lg={{ order: 1 }} >
       <h2 id="ABOUT">ABOUT ME</h2>
                   <div style={{ margin: 10 }}>
            
@@ -88,7 +76,19 @@ export default function About() {
                     <h4> Intro to Data Science from Skooldio 2020</h4> 
      </div> 
               </Col>
-         
+              <Col span={isMobile?0:3} xs={{ order: 1 }} sm={{ order: 1 }} md={{ order: 1 }} lg={{ order: 1 }} offset={1}>
+               
+               <Anchor style={{marginTop:40}} >
+       <Link href="#ABOUT" title="ABOUT" />
+       <Link href="#Contact" title="Contact Details" />
+       <Link href="#Education" title="Education"/>
+       <Link href="#Competencies" title="Competencies" />
+                         <Link href="#Interests" title="Interests" />
+                         <Link href="#Certificate" title="Certificate" />
+   
+                         </Anchor>
+               
+      </Col>
    
     </Row>
        
