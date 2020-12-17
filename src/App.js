@@ -1,18 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import { Box, Grid,Divider } from '@material-ui/core';
+
+
+import { AppBar,Toolbar,Box, Grid,Divider,Slide,useMediaQuery ,useScrollTrigger,CssBaseline,Typography} from '@material-ui/core';
 import { useTheme } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-import Slide from '@material-ui/core/Slide';
 import { createMuiTheme } from '@material-ui/core/styles';
-import { ThemeProvider } from '@material-ui/styles';
+import { ThemeProvider } from '@material-ui/core/styles';
 import './App.css'
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 import lrnportal from './assets/img/work/learning-portal.png'
 import ocsc from './assets/img/work/ocsc.png'
 import ywc from './assets/img/project/ywc.png'
@@ -86,7 +80,7 @@ export default function HideAppBar(props) {
          </Box>
               
               <Grid container direction="row" alignItems="center" justify="center" spacing={6}>
-              <img src={profile} height="180px" width="180px" style={{ borderRadius: 1000, textAlign:'center'}} />
+              <img src={profile} alt="" height="180px" width="180px" style={{ borderRadius: 1000, textAlign:'center'}} />
             </Grid>
         
          <Box fontSize={24} fontWeight={900} margin={'20px 100px 10px 0px'}>
@@ -258,7 +252,7 @@ export default function HideAppBar(props) {
 
             </Box>
 
-                    <img src={ywc} height="100%" width="80%" style={{ objectFit: 'cover' }} />
+                    <img src={ywc} alt="" height="100%" width="80%" style={{ objectFit: 'cover' }} />
                     <Box fontSize={16} my={2} fontWeight={600}  color={'#aaa'}>
                      November 2020
            </Box>
@@ -279,7 +273,7 @@ export default function HideAppBar(props) {
 
             </Box>
 
-                    <img src={travel} height="100%" width="80%" style={{ objectFit: 'cover' }} />
+                    <img src={travel} alt="" height="100%" width="80%" style={{ objectFit: 'cover' }} />
                     <Box fontSize={16} my={2} fontWeight={600}  color={'#aaa'}>
                      November 2020
            </Box>
@@ -300,7 +294,7 @@ export default function HideAppBar(props) {
 
             </Box>
 
-                    <img src={hostel} height="100%" width="80%" style={{ objectFit: 'cover' }} />
+                    <img src={hostel} alt="" height="100%" width="80%" style={{ objectFit: 'cover' }} />
                     <Box fontSize={16} my={2} fontWeight={600}  color={'#aaa'}>
                      November 2020
            </Box>
@@ -318,7 +312,7 @@ export default function HideAppBar(props) {
                     <Box fontSize={18} my={2} fontWeight={600} >
             UserInterface
             </Box>
-                    <img src={camp} height="100%" width="80%" style={{ objectFit: 'cover' }} />
+                    <img src={camp} alt="" height="100%" width="80%" style={{ objectFit: 'cover' }} />
                     <Box fontSize={16} my={2} fontWeight={600}  color={'#aaa'}>
                      October 2020
            </Box>
@@ -339,7 +333,7 @@ export default function HideAppBar(props) {
               UserInterface
 
             </Box>
-                    <img src={pop} height="100%" width="80%" style={{ objectFit: 'cover' }} />
+                    <img src={pop} alt="" height="100%" width="80%" style={{ objectFit: 'cover' }} />
                     <Box fontSize={16} my={2} fontWeight={600}  color={'#aaa'}>
                      January 2020
            </Box>
@@ -373,7 +367,7 @@ export default function HideAppBar(props) {
 
             </Box>
             <div style={{width:'100%'}}>
-                  <img src={lrnportal} height="100%" width="80%" style={{ objectFit: 'cover' }} />
+                  <img src={lrnportal} alt="" height="100%" width="80%" style={{ objectFit: 'cover' }} />
                   <Box fontSize={16} my={2} fontWeight={600}  color={'#aaa'}>
                   August 2020 - April 2021 | In Progress...
            </Box>
@@ -397,7 +391,7 @@ export default function HideAppBar(props) {
                     Web Application: Personal Interest Evaluation for Thai Government Jobs -2020
 
             </Box>
-                  <img src={ocsc} height="100%" width="80%" style={{ objectFit: 'cover' }} />
+                  <img src={ocsc} alt="" height="100%" width="80%" style={{ objectFit: 'cover' }} />
                   <Box fontSize={16} my={2} fontWeight={600}  color={'#aaa'}>
                   May 2020 - August 2020
            </Box>
