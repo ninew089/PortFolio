@@ -1,7 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-
 import { AppBar,Toolbar,Box, Grid,Divider,Slide,useMediaQuery ,useScrollTrigger,CssBaseline,Typography} from '@material-ui/core';
 import { useTheme } from '@material-ui/core/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
@@ -50,7 +48,8 @@ HideOnScroll.propTypes = {
 
 export default function HideAppBar(props) {
   const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up('sm'));
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
+  const matchessm = useMediaQuery(theme.breakpoints.down('sm'));
   return (
     <ThemeProvider theme={THEME}>
 
@@ -71,7 +70,7 @@ export default function HideAppBar(props) {
           <Grid items xs={12} sm={12} md={5} lg={5} >
          
         
-            <div style={{ margin: 100, position: matches?'fixed':'none',float:'left',width:400 }}>
+            <div style={{ margin: 60, position: matches?'fixed':'',float:'left',width:400 }}>
             <Box fontSize={24} fontWeight={900} >
               About me
          </Box>
@@ -86,7 +85,7 @@ export default function HideAppBar(props) {
          <Box fontSize={24} fontWeight={900} margin={'20px 100px 10px 0px'}>
               Jittanan Jackthreemongkol.
          </Box>
-         <Box fontSize={14} fontWeight={400}>
+              <Box fontSize={14} fontWeight={400}>
                 &nbsp; &nbsp; &nbsp;I am a fourth-year computer science student at Chulalongkorn University in Bangkok. I am a self-taught frontend developer .
                 Currently looking for internship position in the industry in which to improve computer skill and expand work experience. If you are interested in me, feel free to contact!
          </Box>
@@ -135,9 +134,9 @@ export default function HideAppBar(props) {
   
               </div>
           </Grid>
-          <Grid items xs={12} sm={12} md={7} lg={7} >
+          <Grid items xs={12} sm={12} md={6} lg={6} >
             <section style={ {   isolation: 'isolate',maxWidth: '100%',overflowX: 'hidden',margin:10}}>
-          <Box  style={{margin:matches?"100px 0px 0px 0px":"0px 100px 100px 100px"}}>
+          <Box  style={{margin:matches?"60px 0px 0px 0px":"0px 60px 60px 60px"}}>
                 <div>
                 <Box fontSize={24} my={2} fontWeight={600} >
               Education
@@ -399,7 +398,8 @@ export default function HideAppBar(props) {
                     Frontend Developer, with Neo S. (Backend Developer)
            </Box>
                     <div>
-                    &nbsp; &nbsp; &nbsp;Develop an  Web Application: Personal Interest Evaluation for Thai Government Jobs for the Office of the Civil Service Commission (OCSC). People which are more than 200k government personnel can find evaulation for thai goverment jobs in an online,
+                    &nbsp; &nbsp; &nbsp;Develop an Web Application: Personal Interest Evaluation for Thai Government Jobs for the Office of the Civil
+Service Commission (OCSC). People which can find evaulation for thai goverment jobs in an online.
 
                     </div>
                     <div>
