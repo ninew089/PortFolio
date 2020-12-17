@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PortFolio/static/css/main.2706d6f1.chunk.css",
-    "main.js": "/PortFolio/static/js/main.27cd47b2.chunk.js",
-    "main.js.map": "/PortFolio/static/js/main.27cd47b2.chunk.js.map",
+    "main.js": "/PortFolio/static/js/main.b5b04139.chunk.js",
+    "main.js.map": "/PortFolio/static/js/main.b5b04139.chunk.js.map",
     "runtime-main.js": "/PortFolio/static/js/runtime-main.41ac6f0e.js",
     "runtime-main.js.map": "/PortFolio/static/js/runtime-main.41ac6f0e.js.map",
     "static/js/2.2c3d4134.chunk.js": "/PortFolio/static/js/2.2c3d4134.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/PortFolio/index.html",
     "static/css/main.2706d6f1.chunk.css.map": "/PortFolio/static/css/main.2706d6f1.chunk.css.map",
     "static/js/2.2c3d4134.chunk.js.LICENSE.txt": "/PortFolio/static/js/2.2c3d4134.chunk.js.LICENSE.txt",
-    "static/media/CV.be8eab73.pdf": "/PortFolio/static/media/CV.be8eab73.pdf",
+    "static/media/CV.f4f80deb.pdf": "/PortFolio/static/media/CV.f4f80deb.pdf",
     "static/media/camp.0c1e0bea.png": "/PortFolio/static/media/camp.0c1e0bea.png",
     "static/media/hostel.d8d9cba3.png": "/PortFolio/static/media/hostel.d8d9cba3.png",
     "static/media/img.ad5e19ba.JPG": "/PortFolio/static/media/img.ad5e19ba.JPG",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.41ac6f0e.js",
     "static/js/2.2c3d4134.chunk.js",
     "static/css/main.2706d6f1.chunk.css",
-    "static/js/main.27cd47b2.chunk.js"
+    "static/js/main.b5b04139.chunk.js"
   ]
 }

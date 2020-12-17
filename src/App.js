@@ -97,16 +97,16 @@ export default function HideAppBar(props) {
                email: jittanan.jck@gmail.com
 </div>
                 <div>
-                Tel: 085-491-5651
+                el: 085-491-5651
                 </div>
                 <div>
-                Line: new.jck
+                line: new.jck
                 </div>
                 <div style={{ display: 'inline-flex' }}>
-                Github : <a href="https://github.com/ninew089/"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>ninew089</a>
+                github : <a href="https://github.com/ninew089/"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>ninew089</a>
                 </div>
                 <div>
-                  Linkin :
+                linkedin :
                   
                   <a href="https://www.linkedin.com/in/jittanan-jkn-7468b3157/"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>@jittanan.jkn</a>
 </div>
@@ -174,26 +174,21 @@ export default function HideAppBar(props) {
          </Box>
                 <Box style={{ margin: 20 }}>
                 <div>
-                  React.js
+                • Languages : Javascript ,HTML ,CSS ,TypeScript,Python,Java 
+
                   </div>
                   <div>
-                  Javascript
+                  • Frameworks : ReactJs
                   </div>
                   <div>
-                  HTML
+                  • Tools : Git
+
                   </div>
                   <div>
-                  CSS
+                  • UI/UX Design: Figma
                   </div>
-                  <div>
-                  Python
-                  </div>
-                  <div>
-                  Java
-                    </div>
-                    <div>
-                  Figma
-                    </div>
+              
+                 
             </Box>
             <Divider/>
             <Box fontSize={24} my={2} fontWeight={600} >
@@ -431,19 +426,25 @@ Service Commission (OCSC). People which can find evaulation for thai goverment j
                    
          </Box>
          <Box margin={2}>
-            <Box>
-              Front-End Web Development with React (with Honors)  by Coursera 2020   </Box>
-              <Box>
-HTML,CSS and Javascript for Web Developers by Coursera 2020
+                  <Box>
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/BYTV9WRVQG8J"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}> Front-End Web Development with React (with Honors)  by Coursera 2020</a>
+                 </Box>
+                  <Box>
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/3B7MG3GY2H94"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}> HTML,CSS and Javascript for Web Developers by Coursera 2020</a>
+
 </Box>
-<Box>
-Mastering Web Development with React by Skooldio 2020
+                  <Box>
+                  <a href="https://www.skooldio.com/certificate/5e959bfe-aab7-4e29-9920-8bf8f96ffe03"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}> Mastering Web Development with React by Skooldio 2020</a>
+
 </Box>
-<Box>
-Visual Elements of User Interface Design  by Coursera2020
-</Box>
-<Box>
-                    Intro to Data Science from Skooldio 2020
+                  <Box>
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/W8KQ3LXYLZFY"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}> Visual Elements of User Interface Design  by Coursera 2020</a>
+
+                  </Box>
+                 
+                  <Box>
+                  <a href="https://www.skooldio.com/certificate/8c6d32ef-26ac-492f-ab11-18e49b5bcc81"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>       Intro to Data Science from Skooldio 2020</a>
+             
 
             </Box>
                   </Box>
