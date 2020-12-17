@@ -23,6 +23,8 @@ import travel from './assets/img/project/travel.png'
 import profile from './assets/img/profile/img.JPG'
 import resume from './assets/pdf/resume_intern.pdf'
 import transcript from './assets/pdf/transcript.pdf'
+import cv from './assets/pdf/CV.pdf'
+
 
 const THEME = createMuiTheme({
   typography: {
@@ -72,7 +74,7 @@ export default function HideAppBar(props) {
                
         <Grid container direction="row" justify="center">
           
-          <Grid items xs={12} sm={12} md={6} lg={6} >
+          <Grid items xs={12} sm={12} md={5} lg={5} >
          
         
             <div style={{ margin: 100, position: matches?'fixed':'none',float:'left',width:400 }}>
@@ -129,7 +131,7 @@ export default function HideAppBar(props) {
                   <a href={transcript} target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>transcript</a>
                   </div>
                   <div>
-                    cv
+                  <a href={cv} target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>cv</a>
                   </div>
                   
              </div>
@@ -139,7 +141,7 @@ export default function HideAppBar(props) {
   
               </div>
           </Grid>
-          <Grid items xs={12} sm={12} md={6} lg={6} >
+          <Grid items xs={12} sm={12} md={7} lg={7} >
             <section style={ {   isolation: 'isolate',maxWidth: '100%',overflowX: 'hidden',margin:10}}>
           <Box  style={{margin:matches?"100px 0px 0px 0px":"0px 100px 100px 100px"}}>
                 <div>
@@ -178,6 +180,9 @@ export default function HideAppBar(props) {
                
          </Box>
                 <Box style={{ margin: 20 }}>
+                <div>
+                  React.js
+                  </div>
                   <div>
                   Javascript
                   </div>
@@ -258,15 +263,13 @@ export default function HideAppBar(props) {
                      November 2020
            </Box>
                     <Box fontSize={16} my={2} fontWeight={600} >
-                      HalfHalf Project
+                      HalfHalf Website
            </Box>
                     <div>
-                  HalfHalf Project is a homework round of interviews of ywc18. About responsive, json and fliter.
+                  HalfHalf Website is Design and develop websites using React.js and Antdesign,including responsive website , filter,  and prototype-based programming.
 
                     </div>
-                    <div>
-                    Using React.js, Antdesign
-                    </div>
+                  
            <Box fontSize={16} my={2} fontWeight={600}  color={'#2d6bf9'}>
            <a href="https://ywc18verceltest.ninew089.vercel.app/"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>demo site</a>
            </Box>
@@ -285,7 +288,7 @@ export default function HideAppBar(props) {
            </Box>
                     
                     <div>
-                    Using React.js, Material UI
+                    Developed web app by using React.js, Material UI,Json server and prototype-based programming.
                     </div>
            <Box fontSize={16} my={2} fontWeight={600}  color={'#2d6bf9'}>
            <a href="https://github.com/ninew089/frontend-assigment"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>see more on Github...</a>
@@ -306,7 +309,7 @@ export default function HideAppBar(props) {
            </Box>
                     
                     <div>
-                    Using React.js, Material UI
+                    Design and develop websites using React.js ,Redux and Mock Api sever from Postman.
                     </div>
            <Box fontSize={16} my={2} fontWeight={600}  color={'#2d6bf9'}>
            <a href="https://frontend-test-nine.vercel.app/"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>demo site</a>
@@ -323,12 +326,10 @@ export default function HideAppBar(props) {
                       Camp Info website
            </Box>
                     <div>
-                    Camp Info website is a homework in the camp application of ywc18.
+                    Design using Figma
 
                     </div>
-                    <div>
-                      Using Figma
-                    </div>
+                 
                     
            <Box fontSize={16} my={2} fontWeight={600}  color={'#2d6bf9'}>
            <a href="https://www.figma.com/file/lJCGfHGbinMzvJflhnw4jb/ytw18?node-id=0%3A1"target="blank" style={{color:'#2d6bf9',textDecoration:'none'}}>demo </a>
@@ -343,10 +344,11 @@ export default function HideAppBar(props) {
                      January 2020
            </Box>
                     <Box fontSize={16} my={2} fontWeight={600} >
-                      PoP Bus  Application
+                    POP BUS Application
            </Box>
                     <div>
-                    Popbus is a homework  of UI course. 
+                    Collaborated with a team of 7 people to performed ideation, brainstorming, and wireframing. Created
+ numerous mobile app prototypes of varying fidelity to test assumptions and concepts.
 
                     </div>
                     <div>
@@ -379,7 +381,7 @@ export default function HideAppBar(props) {
                     Frontend Developer, with Neo S. (Backend Developer)
            </Box>
                     <div>
-                    &nbsp; &nbsp; &nbsp;Develop an e-Learning Portal platform for the Office of the Civil Service Commission (OCSC). Students which are more than 200k government personnel can find in an online.
+                    &nbsp; &nbsp; &nbsp;Develop an e-Learning Portal platform for the Office of the Civil Service Commission (OCSC). Students which are more than 200k government personnel can find course in an online.
 
                     </div>
                     <div>
