@@ -49,7 +49,7 @@ HideOnScroll.propTypes = {
 export default function HideAppBar(props) {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up('md'));
-  const matchessm = useMediaQuery(theme.breakpoints.down('sm'));
+
   return (
     <ThemeProvider theme={THEME}>
 
