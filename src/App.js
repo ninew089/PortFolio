@@ -90,7 +90,7 @@ export default function HideAppBar(props) {
                 Currently looking for internship position in the industry in which to improve computer skill and expand work experience. If you are interested in me, feel free to contact!
          </Box>
          <Box fontSize={18} my={2} fontWeight={600} >
-                Contract
+                Contact
               </Box>
               <Box fontSize={14} my={2} fontWeight={600} >
               <div>
