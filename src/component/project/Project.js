@@ -2,9 +2,7 @@ import React from 'react';
 
 import { AppBar,Toolbar,Box, Grid,Divider,Slide,useMediaQuery ,useScrollTrigger,CssBaseline,Typography} from '@material-ui/core';
 import { useTheme } from '@material-ui/core/styles';
-
-import lrnportal from '../../assets/img/work/learning-portal.png'
-import ocsc from '../../assets/img/work/ocsc.png'
+import guess from '../../assets/img/project/guess.png'
 import reactnative from '../../assets/img/project/reactnative.png'
 import hostel from '../../assets/img/project/hostel.png'
 import pop from '../../assets/img/project/popbus.png'
@@ -17,6 +15,15 @@ export default function Project(props) {
   const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.up('md'));
     const data = [
+        {
+            title:'Mobile App',
+            date:'December 2020',
+            name:'Guess a number between 1 and 100 App' ,
+            img:guess,
+            desc:'Guess a number : Select 1 unique numbers from 1 to 100, Using ReactNative',
+            link:"https://github.com/ninew089/GUESS_A_NUMBER_APP",
+            more:"see on Github..."
+        },
         {
             title:'Mobile App',
             date:'December 2020',
