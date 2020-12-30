@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/PortFolio/static/css/main.2706d6f1.chunk.css",
+    "main.js": "/PortFolio/static/js/main.cdefef99.chunk.js",
+    "main.js.map": "/PortFolio/static/js/main.cdefef99.chunk.js.map",
+    "runtime-main.js": "/PortFolio/static/js/runtime-main.41ac6f0e.js",
+    "runtime-main.js.map": "/PortFolio/static/js/runtime-main.41ac6f0e.js.map",
+    "static/js/2.77a069f2.chunk.js": "/PortFolio/static/js/2.77a069f2.chunk.js",
+    "static/js/2.77a069f2.chunk.js.map": "/PortFolio/static/js/2.77a069f2.chunk.js.map",
+    "static/js/3.c6edf818.chunk.js": "/PortFolio/static/js/3.c6edf818.chunk.js",
+    "static/js/3.c6edf818.chunk.js.map": "/PortFolio/static/js/3.c6edf818.chunk.js.map",
+    "index.html": "/PortFolio/index.html",
+    "static/css/main.2706d6f1.chunk.css.map": "/PortFolio/static/css/main.2706d6f1.chunk.css.map",
+    "static/js/2.77a069f2.chunk.js.LICENSE.txt": "/PortFolio/static/js/2.77a069f2.chunk.js.LICENSE.txt",
+    "static/media/CV.f4f80deb.pdf": "/PortFolio/static/media/CV.f4f80deb.pdf",
+    "static/media/camp.0c1e0bea.png": "/PortFolio/static/media/camp.0c1e0bea.png",
+    "static/media/guess.c730d21d.png": "/PortFolio/static/media/guess.c730d21d.png",
+    "static/media/hostel.d8d9cba3.png": "/PortFolio/static/media/hostel.d8d9cba3.png",
+    "static/media/img.ad5e19ba.JPG": "/PortFolio/static/media/img.ad5e19ba.JPG",
+    "static/media/learning-portal.e4a5e0a8.png": "/PortFolio/static/media/learning-portal.e4a5e0a8.png",
+    "static/media/ocsc.b5f960a7.png": "/PortFolio/static/media/ocsc.b5f960a7.png",
+    "static/media/popbus.8c18bb6c.png": "/PortFolio/static/media/popbus.8c18bb6c.png",
+    "static/media/reactnative.b4f686eb.png": "/PortFolio/static/media/reactnative.b4f686eb.png",
+    "static/media/resume_intern.4c652573.pdf": "/PortFolio/static/media/resume_intern.4c652573.pdf",
+    "static/media/transcript.5afca937.pdf": "/PortFolio/static/media/transcript.5afca937.pdf",
+    "static/media/travel.a758c41d.png": "/PortFolio/static/media/travel.a758c41d.png",
+    "static/media/ywc.b5eb0689.png": "/PortFolio/static/media/ywc.b5eb0689.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41ac6f0e.js",
+    "static/js/2.77a069f2.chunk.js",
+    "static/css/main.2706d6f1.chunk.css",
+    "static/js/main.cdefef99.chunk.js"
+  ]
+}
