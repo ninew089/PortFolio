@@ -18,7 +18,7 @@ export default function Project(props) {
             img:lrnportal,
         desc: 'Develop an e-Learning Portal platform for the Office of the Civil Service Commission (OCSC). Students which are more than 200k government personnel can find course in an online.',
             tool:'Developed by using TypeScript, ReactJS, Material-UI, .NET Core, MariaDB, and many more.',
-            link:"http://54.151.212.211/learning-portal",
+            link:"https://learn.ocsc.info/learning-portal/",
             more:"demo"
         },
         {
@@ -29,7 +29,7 @@ export default function Project(props) {
       desc: 'Develop an Web Application: Personal Interest Evaluation for Thai Government Jobs for the Office of the Civil Service Commission (OCSC). People which can find evaulation for thai goverment jobs in an online.',
           tool:'Developed by using  ReactJS, Material-UI, .NET Core, MariaDB, and many more.',
           link:"https://job-match.ocsc.go.th",
-          more:"demo"
+          more:"website"
       },
     
     ]
