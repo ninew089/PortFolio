@@ -49,9 +49,7 @@ export default function About() {
       <Box fontSize={14} fontWeight={400}>
         &nbsp; &nbsp; &nbsp;I am a fourth-year computer science student at
         Chulalongkorn University in Bangkok. I am a self-taught frontend
-        developer . Currently looking for internship position in the industry in
-        which to improve computer skill and expand work experience. If you are
-        interested in me, feel free to contact!
+        developer . If you are interested in me, feel free to contact!
       </Box>
       <Box fontSize={18} my={2} fontWeight={600}>
         Contact

@@ -10,9 +10,20 @@ import camp from "../../assets/img/project/camp.png";
 import travel from "../../assets/img/project/travel.png";
 import ywc from "../../assets/img/project/ywc.png";
 import golang from "../../assets/img/project/golang.png";
+import shop from "../../assets/img/project/shop.png";
 import Card from "./component/Card";
 export default function Project(props) {
   const data = [
+    {
+      title: "Web Developer",
+      date: "Feb 2021",
+      name: "react fundamental workshop",
+      img: shop,
+      desc:
+        "Material ui,Redux,Reducer,React hook form,Json server,Dark mode,Shop",
+      link: "https://github.com/ninew089/react-fundamental",
+      more: "see on Github...",
+    },
     {
       title: "Golang Course",
       date: "Feb 2021",
