@@ -15,6 +15,16 @@ import Card from "./component/Card";
 export default function Project(props) {
   const data = [
     {
+      title: "Golang Course",
+      date: "Feb 2021",
+      name: "Golang Course",
+      img: golang,
+      desc:
+        "About cretate Route,Query String,Migration,Upload Image,Database Seeding,Association ,Using Golang,Postgres,Postico",
+      link: "https://github.com/ninew089/Go_course",
+      more: "see on Github...",
+    },
+    {
       title: "Web Developer",
       date: "Feb 2021",
       name: "react fundamental workshop",
@@ -22,16 +32,6 @@ export default function Project(props) {
       desc:
         "Material ui,Redux,Reducer,React hook form,Json server,Dark mode,Shop",
       link: "https://github.com/ninew089/react-fundamental",
-      more: "see on Github...",
-    },
-    {
-      title: "Golang Course",
-      date: "Feb 2021",
-      name: "Golang Course",
-      img: golang,
-      desc:
-        "About cretate Route,Query String,Migration,Upload Image ,Using Golang,Postgres,Postico",
-      link: "https://github.com/ninew089/Go_course",
       more: "see on Github...",
     },
     {

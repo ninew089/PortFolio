@@ -1,15 +1,12 @@
 import React from "react";
 
-import { Box, useMediaQuery } from "@material-ui/core";
-import { useTheme } from "@material-ui/core/styles";
+import { Box } from "@material-ui/core";
 
 import lrnportal from "../../assets/img/work/learning-portal.png";
 import ocsc from "../../assets/img/work/ocsc.png";
 
 import Card from "./component/Card";
 export default function Project(props) {
-  const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up("md"));
   const data = [
     {
       title: " Web Application: OCSC learning Portal  -2020",
