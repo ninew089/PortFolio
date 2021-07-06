@@ -4,7 +4,7 @@ import { Box, Grid, useMediaQuery } from "@material-ui/core";
 import { useTheme } from "@material-ui/core/styles";
 
 import profile from "../../assets/img/profile/img.JPG";
-import resume from "../../assets/pdf/resume_7_7_2021.pdf";
+import resume from "../../assets/pdf/resume.pdf";
 import transcript from "../../assets/pdf/transcript.pdf";
 import cv from "../../assets/pdf/CV.pdf";
 
