@@ -6,11 +6,11 @@ export default function About() {
   return (
     <>
       <Box fontSize={24} my={2} fontWeight={600}>
-        Workshop
+        Work Experience
       </Box>
       <Box margin={2}>
-        <div>React workshop 2020 at Chulalongkorn</div>
-        <div>Ionic React 2020 by Skooldio</div>
+        <div>Frontend Developer</div>
+        <div>Easyrice Digitak Technology | Febuary 2021 - Present</div>
       </Box>
       <Divider />
     </>

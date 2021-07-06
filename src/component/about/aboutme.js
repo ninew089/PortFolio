@@ -4,7 +4,7 @@ import { Box, Grid, useMediaQuery } from "@material-ui/core";
 import { useTheme } from "@material-ui/core/styles";
 
 import profile from "../../assets/img/profile/img.JPG";
-import resume from "../../assets/pdf/resume_intern.pdf";
+import resume from "../../assets/pdf/resume_7_7_2021.pdf";
 import transcript from "../../assets/pdf/transcript.pdf";
 import cv from "../../assets/pdf/CV.pdf";
 
@@ -44,12 +44,10 @@ export default function About() {
       </Grid>
 
       <Box fontSize={24} fontWeight={900} margin={"20px 100px 10px 0px"}>
-        Jittanan Jackthreemongkol.
+        Jittanan Jakthreemongkol.
       </Box>
       <Box fontSize={14} fontWeight={400}>
-        &nbsp; &nbsp; &nbsp;I am a fourth-year computer science student at
-        Chulalongkorn University in Bangkok. I am a self-taught frontend
-        developer . If you are interested in me, feel free to contact!
+        &nbsp; &nbsp; &nbsp;If you are interested in me, feel free to contact!
       </Box>
       <Box fontSize={18} my={2} fontWeight={600}>
         Contact
