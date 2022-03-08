@@ -4,7 +4,6 @@ import { Box, Grid, useMediaQuery } from "@material-ui/core";
 import { useTheme } from "@material-ui/core/styles";
 
 import profile from "../../assets/img/profile/img.JPG";
-import resume from "../../assets/pdf/resume.pdf";
 import transcript from "../../assets/pdf/transcript.pdf";
 import cv from "../../assets/pdf/CV.pdf";
 
@@ -82,15 +81,6 @@ export default function About() {
       </Box>
       <Box fontSize={18} my={2} fontWeight={600}>
         <div style={{ display: "inline-flex" }}>
-          <div style={{ marginRight: 10 }}>
-            <a
-              href={resume}
-              target="blank"
-              style={{ color: "#2d6bf9", textDecoration: "none" }}
-            >
-              resume
-            </a>
-          </div>
           <div style={{ marginRight: 10 }}>
             <a
               href={transcript}
