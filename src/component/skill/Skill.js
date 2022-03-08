@@ -14,7 +14,8 @@ export default function Education() {
           TypeScript
         </div>
         <div>• Frameworks : ReactJs,React Native, Next.js, Golang</div>
-        <div>• Tools : Git</div>
+        <div>• Design System : Material ui ,Ant</div>
+        <div>• Tools : Git,GraphQL</div>
         <div>• UI/UX Design: Figma</div>
       </Box>
     </>

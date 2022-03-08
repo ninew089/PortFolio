@@ -13,12 +13,10 @@ export default function Project(props) {
       date: " August 2020 - April 2021 | In Progress...",
       name: "Frontend Developer, with Neo S. (Backend Developer)",
       img: lrnportal,
-      desc:
-        "Develop an e-Learning Portal platform for the Office of the Civil Service Commission (OCSC). Students which are more than 200k government personnel can find course in an online.",
-      tool:
-        "Developed by using TypeScript, ReactJS, Material-UI, .NET Core, MariaDB, and many more.",
-      link: "https://welearn.ocsc.go.th/learning-portal",
-      more: "demo",
+      desc: "Develop an e-Learning Portal platform for the Office of the Civil Service Commission (OCSC). Students which are more than 200k government personnel can find course in an online.",
+      tool: "Developed by using TypeScript, ReactJS, Material-UI, .NET Core, MariaDB, and many more.",
+      link: "https://learningspace.ocsc.go.th/learningportal",
+      more: "website",
     },
     {
       title:
@@ -26,10 +24,8 @@ export default function Project(props) {
       date: "May 2020 - August 2020",
       name: "Frontend Developer, with Neo S. (Backend Developer)",
       img: ocsc,
-      desc:
-        "Develop an Web Application: Personal Interest Evaluation for Thai Government Jobs for the Office of the Civil Service Commission (OCSC). People which can find evaulation for thai goverment jobs in an online.",
-      tool:
-        "Developed by using  ReactJS, Material-UI, .NET Core, MariaDB, and many more.",
+      desc: "Develop an Web Application: Personal Interest Evaluation for Thai Government Jobs for the Office of the Civil Service Commission (OCSC). People which can find evaulation for thai goverment jobs in an online.",
+      tool: "Developed by using  ReactJS, Material-UI, .NET Core, MariaDB, and many more.",
       link: "https://job-match.ocsc.go.th",
       more: "website",
     },

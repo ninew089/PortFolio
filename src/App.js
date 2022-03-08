@@ -22,7 +22,7 @@ import Accomplishments from "./component/accomplishment/Accomplishment";
 import About from "./component/about/aboutme";
 import Project from "./component/project/Project";
 import Work from "./component/work/Work";
-import Workshop from "./component/workshop/Workshop";
+import WorkExperience from "./component/work_experience/WorkExperience";
 import Certificate from "./component/certificate/Certificate";
 const THEME = createMuiTheme({
   typography: {
@@ -74,10 +74,13 @@ export default function HideAppBar(props) {
         </AppBar>
 
         <Grid container direction="row" justify="center">
-          <Grid items xs={12} sm={12} md={5} lg={5}>
+          <Grid items xs={12}>
+            <Box height="40px" />
+          </Grid>
+          <Grid items xs={12} sm={12} md={4} lg={4}>
             <About />
           </Grid>
-          <Grid items xs={12} sm={12} md={6} lg={6}>
+          <Grid items xs={12} sm={12} md={8} lg={8}>
             <section
               style={{
                 isolation: "isolate",
@@ -91,6 +94,8 @@ export default function HideAppBar(props) {
                   margin: matches ? "60px 0px 0px 0px" : "0px 60px 60px 60px",
                 }}
               >
+                <WorkExperience />
+                <Work />
                 <Education />
                 <Divider />
                 <Skill />
@@ -98,9 +103,7 @@ export default function HideAppBar(props) {
                 <Accomplishments />
                 <Divider />
                 <Project />
-                <Work />
 
-                <Workshop />
                 <Certificate />
               </Box>
             </section>
